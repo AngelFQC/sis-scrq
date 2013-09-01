@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Hoja de valoración diaria</title>
+	<link href="http://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="{WEB_SERVER}site/css/reset.css" />
+	<link rel="stylesheet" href="{WEB_SERVER}site/css/login.css" />
+	<script src="{WEB_SERVER}site/plug/jquery-1.7.2.min.js"></script>
+	<link rel="stylesheet" href="{WEB_SERVER}site/plug/ui/scrq/jquery-ui-1.8.21.custom.css" />
+	<script src="{WEB_SERVER}site/plug/ui/jquery-ui-1.8.21.custom.min.js"></script>
+    <script>var webServer = "{WEB_SERVER}";</script>
+	<script src="{WEB_SERVER}site/js/site.js"></script>
+	<script src="{WEB_SERVER}site/js/ingresar.js"></script>
+	<script src="{WEB_SERVER}site/plug/html5-shiv/html5shiv.js"></script>
+</head>
+<body>
+	<header>
+		<hgroup class="align-center">
+			<h1>Servicio de cirugía reparadora y quemados</h1>
+			<h2>Hospital Regional Docente Las Mercedes</h2>
+		</hgroup>
+	</header>
+	<section>
+		<form method="post" action="{WEB_SERVER}ingresar/" name="frm_ingresar" class="frm_ingresar">
+			<fieldset class="ui-widget-content ui-corner-all">
+				<legend class="bold">Ingreso al sistema</legend>
+				<div class="field">
+					<label for="usuario" class="bold">Usuario</label>
+					<input type="text" name="usuario" id="usuario" required autofocus>
+				</div>
+				<div class="field">
+					<label for="password" class="bold">Contraseña</label>
+					<input type="password" name="password" id="password" required>
+				</div>
+			</fieldset>
+			<fieldset>
+				<div class="field">
+					<button type="submit" class="btn-login-text">Ingresar</button>
+				</div>
+			</fieldset>
+		</form>
+	</section>
+	<div id="dialog-form"></div>
+</body>
+</html>

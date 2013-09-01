@@ -1,0 +1,23 @@
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^ingresar/$ frm_ingresar.php [L]
+
+RewriteRule ^buscar/$ frm_buscar_valoracion.php [L]
+RewriteRule ^imprimir/valoracion/([0-9]*)/$ frm_imprimir_valoracion.php?id=$1 [L]
+RewriteRule ^realizar/valoracion/paciente/([0-9]*)/$ frm_realizar_valoracion.php?id=$1 [L]
+RewriteRule ^registrar/paciente/$ frm_registrar_paciente.php [L]
+RewriteRule ^ver/valoracion/([0-9]*)/$ frm_ver_valoracion.php?id=$1 [L]
+
+RewriteRule ^c/ingresar/$ ajax/ingresar.php [L]
+RewriteRule ^salir/$ ajax/salir.php [L]
+
+RewriteRule ^c/lista/pacientes/$ ajax/autocomplete_pacientes.php [L]
+RewriteRule ^c/paciente/([0-9]*)/$ ajax/paciente.php?id=$1 [L]
+#RewriteRule ^c/listar/valoraciones/([0-9]*)/$ ajax/grid_valoraciones.php?id=$1 [L]
+RewriteRule ^c/registrar/paciente/$ ajax/registrar_paciente.php [L]
+
+RewriteRule ^admin/$ frm_admin.php [L]
+RewriteRule ^c/admin/$ ajax/registrar_usuario.php [L]
+RewriteRule ^c/admin/eliminar/$ ajax/eliminar_usuario.php [L]

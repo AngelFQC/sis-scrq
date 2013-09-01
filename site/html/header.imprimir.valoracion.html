@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Imprimir hoja de valoración diaria</title>
+	<link rel="stylesheet" href="{WEB_SERVER}site/css/reset.css" />
+	<link rel="stylesheet" href="{WEB_SERVER}site/css/imprimir.css" />
+	<link rel="stylesheet" href="{WEB_SERVER}site/plug/ui/scrq/jquery-ui-1.8.21.custom.css" />
+	<script src="{WEB_SERVER}site/plug/html5-shiv/html5shiv-printshiv.js"></script>
+</head>
+<body>
+<header>
+	<hgroup>
+		<h1 class="align-center">Hoja de valoración diaria</h1>
+		<h2 class="align-center">Servicio de cirugía reparadora y quemados</h2>
+		<h3 class="align-center">Hospital Regional Docente Las Mercedes</h3>
+	</hgroup>
+	<div class="detalle">
+		<p class="bold left">Paciente: {paciente nombre}</p>
+		<p class="bold right">Fecha: {fecha valoracion}</p>
+		<p class="bold center align-center">N° cama: {cama paciente}</p>
+		<div class="clear"></div>
+	</div>
+</header>

@@ -1,0 +1,45 @@
+body{font-family:'Arimo',sans-serif; font-size:12px}
+a{text-decoration:none}
+hr{margin:10px}
+th, td{vertical-align:middle}
+form, 
+.margin-bottom{margin-bottom:10px}
+header{padding:0 5px 5px}
+header hgroup{border-bottom:1px solid #CDD5DA;  letter-spacing:1px;  text-transform:uppercase}
+hgroup h1, hgroup h2, hgroup h3{ line-height:2em}
+nav li{ position:relative}
+nav li a{ line-height:2em;  margin-right:10px}
+#toolbar{ border-top:1px solid #CDD5DA;  padding-top:5px}
+aside{ background-color:#FFF}
+aside h3{ letter-spacing:1px;  padding:5px 5px 0;  text-transform:uppercase}
+aside .module{ line-height:1.5em;  padding:0 5px}
+.module a{ color:#026DA5}
+.module a:hover{ text-decoration:underline}
+footer{ background-color:#FFF}
+footer span{ border-right:1px solid #BBB;  display:block;  float:left;  padding:5px; letter-spacing:1px}
+section{ background-color:#FFF}
+section .container{ padding:5px}
+section .seccion{ border-bottom:1px solid #BBB;  margin-bottom:5px;  padding:5px 10px}
+section h3{ font-size:14px;  letter-spacing:2px;  padding-bottom:5px;  text-transform:uppercase}
+.grupo{ margin-bottom:10px;  padding:5px 10px 10px}
+legend{letter-spacing:1px;  padding:0 5px}
+.field{ padding:3px 0}
+.label{ display:inline-block;  vertical-align:middle;  width:170px}
+.clear{clear:both}
+.left{float:left}
+.right{float:right}
+.center{margin-left:auto; margin-right:auto}
+.block{display:block}
+.align-center{text-align:center}
+.align-left{text-align:left}
+.align-right{text-align:right}
+.bold{font-weight:700}
+.frm-reg-paciente{ margin-left:auto;  margin-right:auto;  width:490px}
+.frm-admin{ width:480px}
+#dialog-form ul li, #dialog-form p{line-height:1.5em}
+#dialog-form ul li{margin-left:20px}
+#dialog-form p{text-align:center}
+.ui-jqgrid{margin:0 auto 10px auto}
+input[type=text], input[type=date], select{background:url("../plug/ui/scrq/images/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50% #FFF;  border:1px solid #CDD5DA;  color:#000; border-radius:5px; font-family:'Arimo',sans-serif;  font-size:12px}
+input[type=text], input[type=date]{padding:4px}
+select{padding:3px; height:auto !important; line-height: normal !important}

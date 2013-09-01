@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Servicio de cirugía reparadora y quemados</title>
+	<link href="http://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="{WEB_SERVER}site/css/reset.css" />
+	<link rel="stylesheet" href="{WEB_SERVER}site/css/style.css" />
+	<script src="{WEB_SERVER}site/plug/jquery-1.7.2.min.js"></script>
+	<link rel="stylesheet" href="{WEB_SERVER}site/plug/ui/scrq/jquery-ui-1.8.21.custom.css" />
+	<script src="{WEB_SERVER}site/plug/ui/jquery-ui-1.8.21.custom.min.js"></script>
+	<script src="{WEB_SERVER}site/plug/ui/jquery.ui.datepicker-es.js"></script>
+	<link rel="stylesheet" href="{WEB_SERVER}site/plug/layout/layout-default.css" />
+	<script src="{WEB_SERVER}site/plug/layout/jquery.layout.min.js"></script>
+	<link rel="stylesheet" href="{WEB_SERVER}site/plug/jqgrid/css/ui.jqgrid.css" />
+	<script src="{WEB_SERVER}site/plug/jqgrid/js/jquery.jqGrid.min.js"></script>
+	<script src="{WEB_SERVER}site/plug/jqgrid/js/i18n/grid.locale-es.js"></script>
+    <script>var webServer = "{WEB_SERVER}";</script>
+	<script src="{WEB_SERVER}site/js/site.js"></script>
+	<script src="{WEB_SERVER}site/js/ui.js"></script>
+	<script src="{WEB_SERVER}site/js/layout.js"></script>
+{scripts locals}
+	<script src="{WEB_SERVER}site/plug/html5-shiv/html5shiv.js"></script>
+</head>
+<body>
+<header class="ui-widget-header ui-layout-north">
+	<hgroup>
+		<h1>Servicio de cirugía reparadora y quemados &ndash; Hospital Regional Docente Las Mercedes</h2>
+	</hgroup>
+	<nav>
+		<ul>
+			<li class="left">
+				<a href="{WEB_SERVER}buscar/">Valoración</a>
+			</li>
+			<li class="left">
+				<a href="{WEB_SERVER}registrar/paciente/">Registro de pacientes</a>
+			</li>
+			<li class="left">
+				<a href="{WEB_SERVER}admin/">Administración de usuarios</a>
+			</li>
+			<li class="left">
+				<a href="{WEB_SERVER}salir/">Salir</a>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</nav>
+	<div id="toolbar">
+		<span class="tool-set">
+			<a href="{WEB_SERVER}realizar/valoracion/" id="btn-realizar-valoracion" class="btn-disabled">Realizar valoración</a>
+			<a href="{WEB_SERVER}ver/valoracion/0/" id="btn-ver-valoracion" class="btn-disabled">Ver valoración completa</a>
+			<a href="{WEB_SERVER}imprimir/valoracion/0/" id="btn-imprimir-valoracion" class="btn-print-text btn-disabled">Imprimir valoración</a>
+		</span>
+	</div>
+</header>

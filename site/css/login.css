@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Arimo',sans-serif;
+    font-size: 12px;
+	padding-top: 14em;
+}
+a {
+    text-decoration: none;
+}
+hgroup{
+	padding-bottom: 10px;
+}
+h1{ font-size: 14px; }
+h2{ font-size: 13px; }
+h1, h2{
+	line-height: 20px;
+	text-transform: uppercase;
+}
+form{
+	width: 300px;
+	margin: 10px auto;
+}
+fieldset{
+    margin-bottom: 5px;
+    padding: 5px 10px 10px;
+}
+legend{
+	letter-spacing: 1px;
+    padding: 0 5px;
+}
+.field {
+    padding: 3px 0;
+}
+label {
+    display: block;
+	line-height: 1.5em;
+}
+input[type=text], input[type=password], select{
+	background: url("../plug/ui/scrq/images/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #CDD5DA;
+    color: #000000;
+	border-radius: 5px;
+	font-family: 'Arimo',sans-serif;
+    font-size: 12px;
+	width: 270px;
+}
+input[type=text], input[type=password]{
+	padding: 4px;
+}
+select{
+	padding: 3px;
+	height: auto !important;
+	line-height:  normal !important;
+}
+
+#dialog-form ul li, #dialog-form p{
+	line-height: 1.5em;
+}
+#dialog-form ul li{
+	margin-left: 20px;
+}
+#dialog-form p{
+	text-align: center;
+}
+
+.clear { clear: both; }
+.left { float: left; }
+.right { float: right; }
+.center { margin-left: auto; margin-right: auto; }
+.block { display: block; }
+.align-center { text-align: center; }
+.align-left { text-align: left; }
+.align-right { text-align: right; }
+.bold { font-weight: 700; }

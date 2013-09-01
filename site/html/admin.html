@@ -1,0 +1,37 @@
+<section class="outer-center">
+	<div class="container">
+		<h3 class="align-center">Registro de nuevos usuarios</h3>
+		<form method="post" action="{WEB_SERVER}admin/" name="frm_admin" class="center frm-admin margin-bottom">
+			<fieldset class="grupo ui-widget-content ui-corner-all">
+				<legend class="bold">Agregar usuario</legend>
+				<div class="field">
+					<label for="nombre" class="bold label">Nombre</label>
+					<input type="text" name="nombre" id="nombre" required autofocus>
+				</div>
+				<div class="field">
+					<label for="dni" class="bold label">DNI</label>
+					<input type="text" name="dni" id="dni" size="8" maxlength="8">
+				</div>
+			</fieldset>
+			<fieldset class="grupo ui-widget-content ui-corner-all">
+				<div class="field">
+					<label for="usuario" class="bold label">Usuario</label>
+					<input type="text" name="usuario" id="usuario">
+				</div>
+				<div class="field">
+					<label for="password" class="bold label">Contraseña</label>
+					<input type="text" name="password" id="password">
+				</div>
+			</fieldset>
+			<div class="field">
+				<button type="submit" class="btn-save-text">Registrar</button>
+			</div>
+		</form>
+		<table id="tbl-admin">
+		</table>
+		<div id="pag-admin"></div>
+		<div class="align-right center" id="btn-admin">
+			<button class="btn-del-text center btn-disabled" type="button" id="btn-del-user" disabled>Deshabilitar usuario</button>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,96 @@
+
+body {
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+hr {
+    margin: 10px;
+}
+.margin-bottom{
+	margin-bottom: 10px;
+}
+
+header {
+    padding: 0 5px 5px;
+}
+header hgroup {
+    border-bottom: 1px solid #CDD5DA;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+hgroup h1, hgroup h2, hgroup h3 {
+    line-height: 2em;
+}
+header .detalle{
+    padding: 10px 0;
+}
+section {
+    background-color: #FFF;
+}
+section .container {
+    padding: 5px;
+}
+section .seccion {
+    border: 1px solid #BBB;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+section h3 {
+    font-size: 10pt;
+    letter-spacing: 2px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+.grupo {
+    margin-bottom: 10px;
+    padding: 5px 10px 10px;
+}
+legend{
+	letter-spacing: 1px;
+    padding: 0 5px;
+}
+.field {
+    padding: 3px 0;
+}
+.label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 170px;
+}
+.clear {
+    clear: both;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.block {
+    display: block;
+}
+.align-center {
+    text-align: center;
+}
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+.bold {
+    font-weight: 700;
+}
+footer{
+    padding: 80px 20px 0px;
+}
+footer .firma{
+    line-height: 2em;
+    border-top: 1px solid #BBB;
+    padding: 5px 50px 0;
+}

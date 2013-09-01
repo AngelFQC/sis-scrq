@@ -1,0 +1,38 @@
+<section class="outer-center">
+	<div class="container">
+		<h3 class="align-center">Registro de ingreso de paciente</h3>
+		<form action="{WEB_SERVER}registrar/paciente/" method="post" name="frm_registrar_paciente" class="frm-reg-paciente">
+			<fieldset class="grupo ui-widget-content ui-corner-all">
+				<legend class="bold">Paciente</legend>
+				<div class="field">
+					<label for="dni" class="bold label">DNI</label>
+                    <input type="text" name="dni" id="dni" size="8" maxlength="8" required>
+				</div>
+				<div class="field">
+					<label for="paterno" class="bold label">Apellidos</label>
+					<input type="text" name="paterno" id="paterno" required>
+					<input type="text" name="materno" id="materno" required>
+				</div>
+				<div class="field">
+					<label for="nombres" class="bold label">Nombres</label>
+					<input type="text" name="nombres" id="nombres" required>
+				</div>
+			</fieldset>
+			<fieldset class="grupo ui-widget-content ui-corner-all">
+				<legend class="bold">Registro</legend>
+				<div class="field">
+					<label for="cama" class="bold label">Número de cama</label>
+					<input type="text" name="cama" id="cama" size="2" maxlength="2" required>
+				</div>
+				<div class="field">
+					<label for="ingreso" class="bold label">Fecha de ingreso</label>
+					<input type="text" id="ingreso" size="25" readonly="readonly" value="{registro fecha}">
+				</div>
+			</fieldset>
+			<div class="field">
+				<button type="submit" class="btn-save-text">Registrar</button>
+                <button type="reset">Limpiar formulario</button>
+			</div>
+		</form>
+	</div>
+</section>
