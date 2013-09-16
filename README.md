@@ -1,10 +1,10 @@
-Sistema de Valoración para el Servicio de Cirugía y Reparación de Quemados
+﻿Sistema de Valoración para el Servicio de Cirugía y Reparación de Quemados
 ========
 
 Sistema para el proceso de Valoración de pacientes en  elServicio de Cirugía y Reparación de Quemados del Hospital Regional Docente Las Mercedes - Chiclayo
 
 Equipo de desarrollo
-====================
+--------------------
 Profesor a cargo
 - Ing. Juan Torres Benavides
 
@@ -40,22 +40,22 @@ Instalación
 Crear base de datos en MySQL
 
 Ejecutar el script de creación de tablas en la base de datos
-	Archivo: "base de datos.sql"
+- Archivo: "base de datos.sql"
 
 Si se está ejecutando desde un servidor con dominio. Habilitar servidor
-	Archivo: "scrq-config.php"
-	Comentar línea 03 y descomentar la línea 05
+- Archivo: "scrq-config.php"
+- Comentar línea 03 y descomentar la línea 05
 
 Si se está ejecutando desde un servidor local (localhost). Habilitar servidor local
-	Archivo: "scrq-config.php"
-	Comentar línea 05 y descomentar la línea 03
+- Archivo: "scrq-config.php"
+- Comentar línea 05 y descomentar la línea 03
 
 Verificar los datos de configuración de conexión al servidor de base de datos
-	Archivo: "scrq-config.php"
-	Línea 7: Servidor, usuario, contraseña, nombre de base de datos
+- Archivo: "scrq-config.php"
+- Línea 7: Servidor, usuario, contraseña, nombre de base de datos
 
 
 Ingreso
-=======
+-------
 Usuario: lmendoza
 Contraseña: #lFknhqbGc=X
